@@ -1,0 +1,153 @@
+*{
+   font-family: sans-serif;
+}
+
+.header{
+   border-bottom: 1px solid black;
+   width: 100%;
+   height: auto;
+}
+.content{
+   margin-left: 5px;
+}
+a{
+   color: black;
+   text-decoration: none;
+}
+
+table, th, td {
+	border:1px solid black;
+}
+.container{
+   border: 1px solid black; 
+   height: auto; 
+   width: 300px;
+   padding: 20px;
+
+}
+.delete{
+   text-align: left;
+}
+
+.ListOfChefs{
+   display: grid;
+   height: auto;
+   row-gap: 20px;
+   grid-template-columns: auto auto auto auto;
+}
+img{
+   height: auto;
+   width: 100px;
+}
+.dltbtn{
+   margin-left: 240px;
+}
+.dltbtn input[type=submit] {
+   border: none;
+   background-color: red;
+   color: white;
+   font-family: Georgia;
+   cursor: pointer;
+}
+.ebtn input[type=submit]{
+   border: none;
+   background-color: #4188db;
+   color: white;
+   font-family: Georgia;
+   cursor: pointer;
+}
+
+textarea {
+   width: 80%;
+   min-height: 100px;
+   padding: 10px;
+   font-size: 16px;
+   line-height: 1.5;
+   border-radius: 5px;
+   resize: vertical;
+}
+
+
+form label {
+   font-weight: bold;
+   display: block;
+   margin-bottom: 5px;
+}
+
+
+
+.dishes{
+   display:none; 
+   margin-top:20px;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid black;
+   width: 99%;
+   padding: 10px;
+}
+
+.header h1 {
+   margin: 0;
+}
+
+.user-info {
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+
+
+.profile-pic {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   cursor: pointer;
+   margin-left: 20px;
+}
+
+
+.chef-greeting {
+   margin-left: 10px;
+   font-size: 18px;
+}
+
+
+#user-actions {
+   position: absolute; 
+   top: 60px; 
+   right: 0; 
+   background-color: #f9f9f9;
+   padding: 10px;
+   border-radius: 5px;
+   display: none; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+#user-actions a {
+   display: block;
+   padding: 5px 10px;
+   text-decoration: none;
+   color: black;
+}
+
+
+#user-actions a:hover {
+   background-color: #ddd;
+}
+
+
+#user-actions a:hover {
+   background-color: #ddd;
+}
+
+.ListOfChefs {
+   display: grid;
+   height: auto;
+   row-gap: 20px;
+   grid-template-columns: auto auto auto auto;
+}
